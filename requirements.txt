@@ -1,0 +1,16 @@
+# torch
+# torchaudio
+pyyaml
+ml-collections
+huggingface_hub
+julius
+omegaconf
+diffq
+audioread
+librosa
+six
+onnxruntime
+pydub
+pytorch_lightning
+onnx
+onnx2pytorch

@@ -1,0 +1,33 @@
+[project]
+name = "uvr_cli"
+version = "1.0.0"
+dependencies = [
+  "pyyaml",
+  "ml-collections",
+  "huggingface_hub",
+  "julius",
+  "omegaconf",
+  "diffq",
+  "audioread",
+  "librosa",
+  "six",
+  "onnxruntime",
+  "pydub",
+  "pytorch_lightning",
+  "onnx",
+  "onnx2pytorch"
+]
+authors = [
+  { name="chameleon-ai", email="ChamelAIon@proton.me" },
+]
+description = "Ultimate Vocal Remover Command Line Interface"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/chameleon-ai/uvr-cli"
+Issues = "https://github.com/chameleon-ai/uvr-cli/issues"

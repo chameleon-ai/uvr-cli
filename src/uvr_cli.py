@@ -764,7 +764,7 @@ def cached_source_callback(process_method, model_name=None):
 def uvr_separate(filename : str, export_path = './', count = 1, cpu_only = False, model_dir = "./models", mdxc_model = "karafan/MDX23C-8KFFT-InstVoc_HQ.ckpt"):
     MDX_MODELS_DIR = model_dir
     # Download the model if it's not downloaded yet
-    if not os.path.exists(mdxc_model):
+    if not os.path.exists(os.path.join(model_dir,mdxc_model)):
         if not os.path.exists(MDX_MODELS_DIR):
             os.makedirs(MDX_MODELS_DIR)
         from huggingface_hub import hf_hub_download
